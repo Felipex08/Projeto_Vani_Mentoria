@@ -1,3 +1,192 @@
-.principal {
-    background-color: aquamarine;
+body {
+    font-family: 'Montserrat', sans-serif;
 }
+
+header {
+    background-color: #588068;
+    padding: 20px 0;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+    height: 200px;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #7c025a;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #C78C19;
+    text-decoration: underline;
+}
+
+.principal {
+    padding: 3em 0;
+    background: #FEFEFE;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.titulo-principal {
+    text-align: center;
+    font-size: 2.5em;
+    margin: 0 0 1em;
+    clear: left;
+    font-weight: bold;
+    /* Para fazer sombra em textos:
+
+    text-shadow: 2px 2px #FF0000; */
+}
+
+.principal p {
+    margin-bottom: 1em;
+    font-size: 18px;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.perfil {
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.mentorias {
+    padding: 3em 0;
+    background: linear-gradient(#FEFEFE, #588068);
+}
+
+.mentorias p {
+    margin: 0 0 2em;
+    text-align: center;
+    font-size: 18px;
+}
+
+/* .mentorias h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+} */
+
+.titulo-mentoria {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.mentorias-conteudo {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.div-mentoria1 {
+    position: relative;
+    float: left;
+    margin-left: 150px;
+    text-align: center;
+}
+
+.div-mentoria2 {
+    position: relative;
+    float: right;
+    margin-right: 150px;
+    text-align: center;
+}
+
+.pagamentos {
+    padding: 3em 0;
+    text-align: center;
+    background-color: #588068;
+}
+
+.div-pagamento1 {
+    position: relative;
+    float: left;
+    margin-left: 180px;
+    text-align: center;
+    width:300px;
+    height:150px;
+    border:solid 2px;
+    border-radius: 5px;
+    box-shadow: 8px 8px 8px 4px black;
+}
+
+.div-pagamento2 {
+    position: relative;
+    float: right;
+    margin-right: 180px;
+    text-align: center;
+    width:300px;
+    height:150px;
+    border:solid 2px;
+    border-radius: 5px;
+    box-shadow: 8px 8px 8px 4px black;
+}
+
+.preco {
+    color: #f5f3f5;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-top: 50px;
+}
+
+.botao-pagamento {
+    margin-top: 5px;
+    border-radius: 8px;
+}
+
+.contato {
+    padding-top: 150px;
+    background-color: #588068;
+}
+
+.rodape {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    background: url("bg.jpg");
+    padding: 40px 0;
+}
+
+.copyright {
+    color: #111111;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+/* paleta de cores Vânia:
+#1f3b2c - verde escuro
+#588068 - verde mais claro
+#7c025a - rosa queimado
+#e5b0a4 - salmão
+#9d8a76 - areia (beje, marrom claro, laranja claro)
+#f5f3f5 - branco gelo 
+soft = 500,00
+black = 2500,00
+*/
