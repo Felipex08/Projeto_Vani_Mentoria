@@ -151,12 +151,18 @@ nav a:hover {
     color: #f5f3f5;
     font-weight: bold;
     font-size: 1.5em;
-    padding-top: 50px;
+    padding-top: 30px;
+    margin-bottom: 5px;
 }
 
 .botao-pagamento {
     margin-top: 5px;
+    background-color: #e5b0a4;
+    padding: 10px 20px 10px 20px;
+    color: #1f3b2c;
+    font-size: 20px;
     border-radius: 8px;
+    box-shadow: 4px 4px 4px 2px #111111;
 }
 
 .contato {
